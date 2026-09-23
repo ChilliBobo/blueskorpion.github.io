@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blue Skorpion — game developer building games and creative experiments with Godot and Python.">
+  <title>Blue Skorpion | Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Blue Skorpion home">BLUE<span>_</span>SKORPION</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <p class="eyebrow">&gt; SYSTEM ONLINE // CREATIVE MODE</p>
+      <h1>Game<br><span>Developer</span></h1>
+      <p class="intro">Hey! My name is Blue Skorpion and I’m building games and some other fancy stuff in my free time.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#project">Explore project <span>↘</span></a>
+        <a class="button button-ghost" href="https://github.com/chillibobo" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      </div>
+      <div class="status-line"><span class="status-dot"></span> BUILDING IN GODOT + PYTHON</div>
+    </section>
+
+    <section id="about" class="section-shell two-column">
+      <div>
+        <p class="section-label">01 / ABOUT</p>
+        <h2>Ideas become<br><span>playable.</span></h2>
+      </div>
+      <div class="section-copy">
+        <p>I enjoy turning unusual ideas into games, prototypes, and interactive experiments. My current toolkit includes Godot and Python.</p>
+        <div class="skill-list" aria-label="Skills">
+          <span>GODOT</span><span>PYTHON</span><span>GAME DESIGN</span><span>PROTOTYPING</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="section-shell project-section">
+      <p class="section-label">02 / FEATURED PROJECT</p>
+      <article class="project-card">
+        <div class="project-art" aria-hidden="true"><span>AMONG<br><b>US</b><br>REAL</span><i>✦</i></div>
+        <div class="project-info">
+          <p class="project-kicker">PARTY GAME // GODOT PROJECT</p>
+          <h2>Among Us Real</h2>
+          <p>Among Us just in real. A party game to play with friends or family, with room for your own ideas.</p>
+          <a class="text-link" href="https://github.com/ChilliBobo/AmongUs-Real" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <p class="section-label">03 / CONTACT</p>
+      <h2>Let’s make<br><span>something fun.</span></h2>
+      <p class="contact-copy">Find my projects and future experiments online.</p>
+      <div class="contact-links">
+        <a href="https://github.com/chillibobo" target="_blank" rel="noreferrer"><small>GITHUB</small><strong>@chillibobo ↗</strong></a>
+        <!-- Replace the placeholder below with your real Matrix ID. -->
+        <a href="https://matrix.to/#/@your-matrix-name:matrix.org" target="_blank" rel="noreferrer"><small>MATRIX</small><strong>@your-matrix-name:matrix.org ↗</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>© <span id="year"></span> BLUE SKORPION</span><span>MADE WITH CURIOSITY</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
